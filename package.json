@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Split single PDF into multiple PDFs",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "ur": "https://github.com/vesteraas/splitpdf"
+  },
   "scripts": {
     "test": "node test.js"
   },
@@ -11,5 +15,9 @@
     "pdf"
   ],
   "author": "wvesteraas@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.0.3",
+    "temp": "^0.8.3"
+  }
 }
