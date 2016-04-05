@@ -16,6 +16,7 @@ var testFile = path.join(__dirname, 'test.pdf');
 
 pdfSplitter.split(testFile, function (err, files) {
     if (err) {
+        throw err;
     } else {
         assert(files && files.length === 3);
     }

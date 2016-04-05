@@ -1,6 +1,4 @@
-const fs = require('fs');
 const path = require('path');
-const http = require('http');
 const exec = require('child_process').exec;
 const glob = require('glob');
 const temp = require("temp").track();

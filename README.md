@@ -16,7 +16,7 @@ To be able to use this module, the `pdftk` tool must be installed.  On my Ubuntu
 $ sudo apt-get install pdftk
 ```
 
-Finally, you can install the `splitpdf` module itself:
+Finally, you can install the `splitpdf` module itself, by typing:
 
 ```bash
 $ npm install @vesteraas/splitpdf
