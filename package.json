@@ -1,5 +1,5 @@
 {
-  "name": "@vesteraas/splitpdf",
+  "name": "splitpdf",
   "version": "0.0.1",
   "description": "Split single PDF into multiple PDFs",
   "main": "index.js",

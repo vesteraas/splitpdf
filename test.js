@@ -9,7 +9,7 @@ var testFile = path.join(__dirname, 'test.pdf');
  * is a callback function, where the first parameter is the error, if any, and the second parameter is an array of file paths,
  * pointing to the single-page PDFs.
  *
- * The generated single-page PDFs will only exist until your program exits.
+ * The generated single-page PDFs will only exist until your program exits, when they get cleaned up automatically.
  *
  * If you need them, you should copy them elsewhere before your program exits.
  */
