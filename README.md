@@ -19,7 +19,7 @@ $ sudo apt-get install pdftk
 Finally, you can install the `splitpdf` module itself, by typing:
 
 ```bash
-$ npm install @vesteraas/splitpdf
+$ npm install splitpdf
 ```
 
 ## Examples
